@@ -1,0 +1,6 @@
+settings.py
+*.log
+.vscode/
+env/
+__pycache__/
+ 
