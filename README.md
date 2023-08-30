@@ -4,13 +4,33 @@ CatBot - это бот для Telegram, который присылает пол
 
 ## Установка
 
-1. Клонируйте репозиторий с github
-2. Создайте виртуальное окружение
-3. Установить зависимости `pip install -r requirements.txt`
-4. Создайте файл `settings.py`
-5. Впишите в setiing.py переменные:
+1. Клонируйте репозиторий с Github:
+
+```
+git clone https://github.com/Comandosss/mybot.git
+```
+
+2. Создайте виртуальное окружение:
+
+```
+python -m venv env
+```
+
+3. Установите зависимости:
+
+```
+pip install -r requirements.txt
+```
+
+4. Создайте файл `settings.py` и впишите переменные:
+
 ```
 API_KEY = 'API-ключ бота'
 USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']
 ```
-6. Запустите бота командой `python bot.py`
+
+5. Запустите бота командой
+
+```
+python bot.py
+```
